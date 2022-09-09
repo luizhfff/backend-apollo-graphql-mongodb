@@ -1,0 +1,27 @@
+{
+  "name": "backend_apollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-mongodb": "^0.5.4",
+    "apollo-server": "^3.10.2",
+    "dotenv": "^16.0.2",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.5.4",
+    "rimraf": "^3.0.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.19.0"
+  }
+}
